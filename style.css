@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+  }
+.main{
+     flex:1;
+  }
+html {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: rgb(241, 233, 182);
+    margin: 20px;
+}
+h1{
+    color: rgb(4, 44, 96);
+    text-align: center;
+    background-color: burlywood;
+}
+.one{
+    padding: 10px;
+    color: rgb(2, 23, 61);
+}
+.two {
+    float:left;
+}
+
+.three {
+    float:right;
+}
+
+.four{
+     float:left;
+}
+
+.five{
+    float:right;
+}
+
+.haha{
+    width:50%;
+}
+img{
+    float:left;
+    border:10px solid burlywood;
+    height:300px;
+    width:500px;
+    margin:10px;
+    margin-right: 10px;
+}
+
+@media (max-width:680px){
+    .haha{
+        width:100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+    .haha img{
+        display:inline;
+        width:100%;
+        margin-bottom:10px;
+    }
+}
+
+.text{
+    color: rgb(132, 85, 38);
+}
+footer{
+    color: rgb(89, 38, 152);
+    clear:both;
+    text-align:end;
+    font-size: 15px;
+    clear:both;
+}
+.what{
+    text-align: center;
+    background-color: rgb(60, 181, 125);
+    height: 75px;
+    clear:both;
+    margin-top: 20px;
+    padding:5px;
+}
+button{
+     background-color: rgb(187, 229, 189);
+}
+.end{
+    color:rgb(7, 44, 9)
+}
